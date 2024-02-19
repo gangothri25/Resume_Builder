@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume Building</title>
+    <link rel="stylesheet" href="./style.css">
+    <style>
+        @media screen and (max-width: 576px) {
+            .for{
+    padding: 3%;
+    display: grid;
+    grid-template-columns: auto ;
+    grid-gap: 10px;
+}
+.bts{
+    width:10%;
+}
+
+        }
+
+        /*small devices*/
+        @media screen and (min-width:577px) and (max-width:425px) {
+            .for{
+    padding: 3%;
+    display: grid;
+    grid-template-columns: auto auto  ;
+    grid-gap: 10px;
+}
+.bts{
+    width:10%;
+}
+        }
+        
+    
+    </style>
+</head>
+
+<body>
+    <section>
+        <nav class="navbar navbar-expand-lg navbar-light nav-bg">
+            <div class="container-fluid ">
+                <a class="navbar-brand" href="#" style="padding-left: 5%;"><img
+                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS010Q91UZTLn_Ooml1GRp_IFVjZ4ldPUqSiTXFFilxCQ&s"
+                        style="width:180px;"></a>
+            </div>
+        </nav>
+        <hr>
+        <section class="sec2">
+            <h2>COMPLETE YOUR <span style="font-weight: bolder;">RESUME HEADING</span></h2>
+            <p>Employers will use this information to contact you.</p>
+            <div>
+                <div>
+                    <img src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png"
+                    width="130x">
+                </div>
+                <div>
+                    <button class="bts" style="width:20%;"> Upload Image</button><br><br>
+                </div>
+            </div>
+            <form class="for">
+                <div>
+                    <label>First Name</label><br>
+                    <input type="text" placeholder="eg : Jhon">
+                </div>
+                <div>
+                    <label>Last Name</label><br>
+                    <input type="text" placeholder="eg : Williams">
+                </div>
+                <div>
+                    <label>Address</label><br>
+                    <input type="text" placeholder="eg : 60,Collins st.">
+                </div>
+                <div>
+                    <label>City</label><br>
+                    <input type="text" placeholder="eg : San Franciso">
+                </div>
+                <div>
+                    <label>Country</label><br>
+                    <select name="country">
+                        <option>India</option>
+                        <option>America</option>
+                        <option>Greece</option>
+                        <option>Green Land</option>
+                        <option>Hong Kong</option>
+                        <option>China</option>
+                        <option>Brazil</option>
+                        <option>France</option>
+                        <option>Finland</option>
+                    </select>
+                </div>
+                <div>
+                    <label>Zip Code</label><br>
+                    <input type="text" placeholder="eg : 60185 ">
+                </div>
+                <div>
+                    <label>Email address</label><br>
+                    <input type="email" placeholder="eg : jhon_williams@mail.com">
+                </div>
+                <div>
+                    <label>Phone</label><br>
+                    <input type="text" placeholder="eg : 0000000000">
+                </div>
+            </form>
+            <div style="display: flex; justify-content: space-around;">
+                <a href="./index.html"><button class=butt style="width:120%;height:90%">Back</button></a>
+                <a href="./experience.html"><button class="bts" style="width:90%;height:90%"> Save & Next</button></a>
+            </div>
+        </section>
+
+        
+    </section>
+</body>
+
+</html>

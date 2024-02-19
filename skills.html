@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume Building</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<style>
+    @media screen and (max-width: 576px) {
+        .for{
+padding: 3%;
+display: grid;
+grid-template-columns: auto ;
+grid-gap: 10px;
+}
+.bts{
+width:10%;
+}
+
+    }
+
+    /*small devices*/
+    @media screen and (min-width:577px) and (max-width:425px) {
+        .for{
+padding: 3%;
+display: grid;
+grid-template-columns: auto auto  ;
+grid-gap: 10px;
+}
+.bts{
+width:10%;
+}
+    }
+    
+
+</style>
+<body>
+    <section>
+        <nav class="navbar navbar-expand-lg navbar-light nav-bg">
+            <div class="container-fluid ">
+                <a class="navbar-brand" href="#" style="padding-left: 5%;"><img
+                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS010Q91UZTLn_Ooml1GRp_IFVjZ4ldPUqSiTXFFilxCQ&s"
+                        style="width:180px;"></a>
+            </div>
+        </nav>
+        <hr>
+        <section class="sec5">
+            <h2 style="font-weight: bolder;">SKILLS</h2>
+            <p>Highlight 6-8 of your top skills.</p>
+            </div>
+            <form class="for" style="display: grid; grid-template-columns: auto auto;">
+                <div>
+                    <label>Skill</label><br>
+                    <input type="text" placeholder="eg : Project Management">
+                </div>
+                <div>
+                    <label>Level</label><br>
+                    <select name="level" placeholder="select your skill level">
+                        <option> Novice</option>
+                        <option>Beginner</option>
+                        <option>Skillfulled</option>
+                        <option> Experienced</option>
+                        <option>Expert</option>
+                        <option>- don't show level</option>
+                        
+                    </select>
+                </div>
+                <div>
+                    <label>Skill</label><br>
+                    <input type="text" placeholder="eg : HTML">
+                </div>
+                <div>
+                    <label>Level</label><br>
+                    <select name="level" placeholder="select your skill level">
+                        <option> Novice</option>
+                        <option>Beginner</option>
+                        <option>Skillfulled</option>
+                        <option> Experienced</option>
+                        <option>Expert</option>
+                        <option>- don't show level</option>
+                        
+                    </select>
+                </div>
+                <div>
+                    <label>Skill</label><br>
+                    <input type="text" placeholder="eg : Online marketing">
+                </div>
+                <div>
+                    <label>Level</label><br>
+                    <select name="level" placeholder="select your skill level">
+                        <option> Novice</option>
+                        <option>Beginner</option>
+                        <option>Skillfulled</option>
+                        <option> Experienced</option>
+                        <option>Expert</option>
+                        <option>- don't show level</option>
+                    </select>
+                </div>
+            </form>
+            <div style="display: flex; justify-content: space-around;">
+                <a href="./education.html"><button class=butt style="width:120%;height:90%">Back</button></a>
+                <a href="#"><button class="btt" style="width:120%;height:90%">+ ADD MORE  SKILLS</button></a>
+                <a href="./summary.html"><button class="bts" style="width:90%;height:90%"> Save & Next</button></a>
+            </div>
+        </section>
+
+    </section>
+</body>

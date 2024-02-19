@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume Building</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<style>
+    @media screen and (max-width: 576px) {
+        .for{
+padding: 3%;
+display: grid;
+grid-template-columns: auto ;
+grid-gap: 10px;
+}
+.bts{
+width:10%;
+}
+
+    }
+
+    /*small devices*/
+    @media screen and (min-width:577px) and (max-width:425px) {
+        .for{
+padding: 3%;
+display: grid;
+grid-template-columns: auto auto  ;
+grid-gap: 10px;
+}
+.bts{
+width:10%;
+}
+    }
+    
+
+</style>
+<body>
+    <section>
+        <nav class="navbar navbar-expand-lg navbar-light nav-bg">
+            <div class="container-fluid ">
+                <a class="navbar-brand" href="#" style="padding-left: 5%;"><img
+                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS010Q91UZTLn_Ooml1GRp_IFVjZ4ldPUqSiTXFFilxCQ&s"
+                        style="width:180px;"></a>
+            </div>
+        </nav>
+        <hr>
+        <section class="sec4">
+            <h2 style="font-weight: bolder;">EDUCATION</h2>
+            <p>Add information about your educational background.</p>
+            </div>
+            <form class="for">
+                <div>
+                    <label>School Name</label><br>
+                    <input type="text" placeholder="eg : Harvard University">
+                </div>
+                <div>
+                    <label>State</label><br>
+                    <input type="text" placeholder="eg : California">
+                </div>
+                <div>
+                    <label>City</label><br>
+                    <input type="text" placeholder="eg : San Franciso">
+                </div>
+                <div>
+                    <label>Field of study</label><br>
+                    <input type="text" placeholder="eg : Engineering">
+                </div>
+                <div>
+                    <label>Select a degree</label><br>
+                    <select name="degree">
+                        <option>Select a degree</option>
+                        <option>High school</option>
+                        <option>MBA</option>
+                        <option>PHD</option>
+                        <option>Bachelor of arts</option>
+                        <option>Master of arts</option>
+                        <option>Master of science</option>
+                        <option>Bachelor of science</option>
+                        <option>Custom degree</option>
+                    </select>
+                </div>
+                <div>
+                    <label>Graduation Date</label><br>
+                    <select name="month">
+                        <option> January</option>
+                        <option>February</option>
+                        <option>March</option>
+                        <option> April</option>
+                        <option>May</option>
+                        <option>June</option>
+                        <option>July</option>
+                        <option>August</option>
+                        <option>September</option>
+                        <option>October</option>
+                        <option>November</option>
+                        <option>December</option>
+                    </select>
+                    <select name="year">
+                        <option>2000</option>
+                        <option>2001</option>
+                        <option>2002</option>
+                        <option>2003</option>
+                        <option>2004</option>
+                        <option>2005</option>
+                        <option>2006</option>
+                        <option>2007</option>
+                        <option>2008</option>
+                        <option>2009</option>
+                        <option>2010</option>
+                        <option>2011</option>
+                        <option>2012</option>
+                        <option>2013</option>
+                        <option>2014</option>
+                        <option>2015</option>
+                        <option>2016</option>
+                        <option>2017</option>
+                        <option>2018</option>
+                        <option>2019</option>
+                        <option>2020</option>
+                        <option>2021</option>
+                        <option>2022</option>
+                        <option>2023</option>
+                        <option>2024</option>
+                    </select>
+                </div>
+                <div style="display:flex; justify-content:right;">
+                    <input type="checkbox"  ><label>I presently attendhere</label>
+                </div>
+                
+                
+            </form>
+            <div style="display: flex; justify-content: space-around;">
+                <a href="./experience.html"><button class=butt style="width:120%;height:90%">Back</button></a>
+                <a href="./skills.html"><button class="bts" style="width:90%;height:90%"> Save & Next</button></a>
+            </div>
+        </section>
+    </section>
+</body>
+
